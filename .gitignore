@@ -1,0 +1,42 @@
+# AI tooling — local only
+.claude/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+
+# Datasets (download separately)
+argo2_data/
+code_folder/01_datasets/
+
+# Models & weights
+*.pth
+*.onnx
+*.pb
+*.h5
+
+# Eval outputs (generated on run)
+code_folder/02_implementations/lidar_tps_pipeline/eval/
+*.csv.bak
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Large media (demo video is intentionally tracked)
+*.avi
+*.mov
